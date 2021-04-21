@@ -1,0 +1,6 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/actlook25957/bookinfo-details:dev
+    ports:
+      - "8080:8080"
